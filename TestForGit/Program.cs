@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TestForGit
 {
@@ -7,6 +8,7 @@ namespace TestForGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Dictionary<int, string> records = new Dictionary<int, string>();
         }
     }
 }
